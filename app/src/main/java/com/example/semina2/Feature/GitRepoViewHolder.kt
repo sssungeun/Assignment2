@@ -20,11 +20,11 @@ class  GitRepoViewHolder(view : View) : RecyclerView.ViewHolder(view) {
         textView.text = data.profileName
         textView2.text = data.profileDetail
 
-//       imageView
+       //imageView
 //        Glide.with()
-//            .load(dataList[position].profileImg)
+//            .load(data[position].profileImg)
 //            .into(holder.profileImg)
-
+//
 //        Glide
 //            .with(itemView)
 //            .load()
