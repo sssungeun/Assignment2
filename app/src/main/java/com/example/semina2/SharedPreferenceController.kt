@@ -2,7 +2,7 @@ package com.example.semina2
 
 import android.content.Context
 
-object Login {
+object SharedPreferenceController {
     private const val LOGIN_KEY = "login"
     private const val USER_KEY = "user"
 
