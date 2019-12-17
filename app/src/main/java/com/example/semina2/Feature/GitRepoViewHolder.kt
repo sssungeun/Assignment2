@@ -14,13 +14,10 @@ class  GitRepoViewHolder(view : View) : RecyclerView.ViewHolder(view) {
          val textView: TextView = view.findViewById(R.id.textView)
          val textView2: TextView = view.findViewById(R.id.textView2)
          val imageView: ImageView = view.findViewById(R.id.imageView)
-         val button: ImageView = view.findViewById(R.id.button)
 
     fun bind(data: GitRepoItem) {
         textView.text = data.profileName
         textView2.text = data.profileDetail
-
-       //imageView
 //        Glide.with()
 //            .load(data[position].profileImg)
 //            .into(holder.profileImg)
@@ -34,5 +31,5 @@ class  GitRepoViewHolder(view : View) : RecyclerView.ViewHolder(view) {
 //            .load() //다양한 것들 로드 가능
 //            .into(imageView)
 //            .placeholder(R.drawable.) //다른거 보여주기
-    }
+   }
 }
